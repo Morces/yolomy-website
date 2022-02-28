@@ -8,8 +8,7 @@ overflow-x: hidden;
 background: url(img/hero.jpg);
 background-size: cover;
 height: 800px;
-width: 100vw;
-position: absolute;
+
 }
 nav h3 {
 color: white;
@@ -32,4 +31,28 @@ position: relative;
 top: 500px;
 left: 700px;
 cursor: pointer;
+}
+.selection {
+width: 25%;
+display: flex;
+justify-content: space-between;
+}
+input.men {
+height: 25px;
+width: 17px;
+background-color: grey;
+}
+input.women {
+height: 25px;
+width: 17px;
+background-color: grey;
+}
+input.children {
+height: 25px;
+width: 17px;
+background-color: grey;
+}
+.card {
+background-color: #D6CFC7;
+height: 100px;
 }
