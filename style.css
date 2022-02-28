@@ -1,0 +1,10 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.firstpage {
+background: url(img/hero.jpg);
+background-size: cover;
+height: 850px;
+}
