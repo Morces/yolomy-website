@@ -69,6 +69,11 @@ width: 180px;
 height: 40px;
 margin-right: 60px;
 }
+select {
+border: none;
+background-color: transparent;
+width: 55px;
+}
 .dot1 {
 height: 20px;
 width: 20px;
@@ -79,7 +84,7 @@ display: inline-block;
 .dot2 {
 height: 20px;
 width: 20px;
-background-color: rgb(208, 28, 28);
+background-color: blue;
 border-radius: 50%;
 display: inline-block;
 }
@@ -89,4 +94,7 @@ width: 20px;
 background-color: rgb(29, 27, 27);
 border-radius: 50%;
 display: inline-block;
+}
+.shirt {
+display: flex;
 }
