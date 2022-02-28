@@ -7,9 +7,9 @@ overflow-x: hidden;
 .firstpage {
 background: url(img/hero.jpg);
 background-size: cover;
-height: 100vh;
+height: 800px;
 width: 100vw;
-position: relative;
+position: absolute;
 }
 nav h3 {
 color: white;
@@ -26,4 +26,10 @@ text-align: center;
 .add h3 {
 font-size: 44px;
 font-weight: 350;
+}
+.mouse {
+position: relative;
+top: 500px;
+left: 700px;
+cursor: pointer;
 }
