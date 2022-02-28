@@ -2,9 +2,28 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+overflow-x: hidden;
 }
 .firstpage {
 background: url(img/hero.jpg);
 background-size: cover;
-height: 850px;
+height: 100vh;
+width: 100vw;
+position: relative;
+}
+nav h3 {
+color: white;
+margin-left: 50px;
+cursor: pointer;
+font-size: 44px;
+font-weight: 350;
+}
+.add {
+position: relative;
+top: 200px;
+text-align: center;
+}
+.add h3 {
+font-size: 44px;
+font-weight: 350;
 }
