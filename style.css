@@ -95,7 +95,7 @@ background-color: rgb(29, 27, 27);
 border-radius: 50%;
 display: inline-block;
 }
-.shirt {
+.size {
 display: flex;
 justify-content: space-between;
 margin-left: 20px;
@@ -107,6 +107,7 @@ float: left;
 margin-bottom: 20px
 margin-top: 30px;
 }
+
 span hr {
 width: 95%;
 margin-left: 70px;
@@ -125,8 +126,7 @@ margin-bottom: 0px;
 color: #977900;
 font-weight: 400px;
 }
-.phase1 {
-/* height: 280px; */
+.phase {
 margin-top: 30px;
 width: 300px;
 background-color: rgb(218, 220, 221);
@@ -136,13 +136,39 @@ margin-top: 20px;
 margin-bottom: 20px;
 margin-left: 60px;
 }
-.phase2 {
-margin-top: 30px;
-width: 300px;
-background-color: rgb(218, 220, 221);
-}
 img.pant {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:80px;
+  }
+img.bag {
 margin-top: 20px;
 margin-bottom: 20px;
 margin-left: 60px;
 }
+.amount p {
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+} 
+.displays {
+display: flex;
+justify-content: space-evenly;
+}
+.phase:hover {
+border: 2px solid #260a00;
+border-radius: 5px;
+}
+.wm p{
+margin-bottom: 20px
+margin-top: 30px;
+text-align: right;
+}
+span hr.line {
+width: 95%;
+margin-left: 70px;
+margin-top: 50px;
+margin-bottom: 20px;
+float: left;
+}
+
