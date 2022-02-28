@@ -97,14 +97,38 @@ display: inline-block;
 }
 .shirt {
 display: flex;
+justify-content: space-between;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
 }
-.displays span p {
+span p {
 float: left;
 margin-bottom: 20px
+margin-top: 30px;
 }
-.displays span hr {
+span hr {
 width: 95%;
 margin-left: 70px;
 margin-top: 50px;
 margin-bottom: 20px;
+}
+.price {
+display: flex;
+justify-content: space-between;
+margin-left: 20px;
+margin-right: 20px;
+/* margin-top: 40px; */
+margin-bottom: 0px;
+}
+.phase1 {
+/* height: 280px; */
+margin-top: 30px;
+width: 300px;
+background-color: rgb(218, 220, 221);
+}
+img.tshat {
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 60px;
 }
