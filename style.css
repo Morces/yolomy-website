@@ -69,3 +69,24 @@ width: 180px;
 height: 40px;
 margin-right: 60px;
 }
+.dot1 {
+height: 20px;
+width: 20px;
+background-color: rgb(32, 136, 32);
+border-radius: 50%;
+display: inline-block;
+}
+.dot2 {
+height: 20px;
+width: 20px;
+background-color: rgb(208, 28, 28);
+border-radius: 50%;
+display: inline-block;
+}
+.dot3 {
+height: 20px;
+width: 20px;
+background-color: rgb(29, 27, 27);
+border-radius: 50%;
+display: inline-block;
+}
