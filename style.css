@@ -36,6 +36,7 @@ cursor: pointer;
 width: 25%;
 display: flex;
 justify-content: space-between;
+margin-left: 80px;
 }
 input.men {
 height: 25px;
@@ -52,7 +53,19 @@ height: 25px;
 width: 17px;
 background-color: grey;
 }
-.card {
-background-color: #D6CFC7;
+.cardy {
+background-color: #c9c2a9;
 height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+input.see-all {
+background-color: brown;
+color: white;
+border: 1px solid brown;
+border-radius: 3px;
+width: 180px;
+height: 40px;
+margin-right: 60px;
 }
