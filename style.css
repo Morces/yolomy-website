@@ -133,17 +133,17 @@ background-color: rgb(218, 220, 221);
 }
 img.tshat {
 margin-top: 20px;
-margin-bottom: 20px;
+margin-bottom: 25px;
 margin-left: 60px;
 }
 img.pant {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left:80px;
-  }
+margin-top: 20px;
+margin-bottom: 25px;
+margin-left:80px;
+}
 img.bag {
 margin-top: 20px;
-margin-bottom: 20px;
+margin-bottom: 25px;
 margin-left: 60px;
 }
 .amount p {
@@ -170,5 +170,10 @@ margin-left: 70px;
 margin-top: 50px;
 margin-bottom: 20px;
 float: left;
+}
+img.jacket {
+margin-top: 20px;
+margin-bottom: 25px;
+margin-left: 60px;
 }
 
