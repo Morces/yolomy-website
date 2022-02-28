@@ -98,3 +98,13 @@ display: inline-block;
 .shirt {
 display: flex;
 }
+.displays span p {
+float: left;
+margin-bottom: 20px
+}
+.displays span hr {
+width: 95%;
+margin-left: 70px;
+margin-top: 50px;
+margin-bottom: 20px;
+}
